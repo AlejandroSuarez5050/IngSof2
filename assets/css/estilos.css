@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222831;
+}
+/*NAVBAR*/
+.navbar{
+    position: marker;
+}
+.iconosNav{
+    font-size:large;
+}
+.iconos:hover{
+    color: #aeaeae;
+}
+.buscar:hover{
+    color: black;
+}
+/* CAROUSEL */
+.carouselC{
+    padding-top: 40px;
+}
+
+/* CONTENIDO */
+.contenedor{
+    background-color: #393e46;
+    border-radius: 10px;
+}
+.contenedor h1,h2,h3,h4,h5,h6,p,i{
+    color: white;
+}
+.contenedorRequistos h5{
+    color: #a09c9c;
+}
+#botonComprar{
+    height: 100px;
+    width: 75%;
+    font-size: xx-large;
+    font-style: inherit;
+}
+#windows{
+    font-size: 70px;
+}
+.navFoot{
+    background-color: black;
+}
+/*BARRAS DE PROGRESO*/
+.circular-progress {
+    margin: auto;
+    position: relative; }
+.circular-progress,
+.circular-progress:before,
+.circular-progress:after {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%; }
+.circular-progress:before,
+.circular-progress:after {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0; }
+.circular-progress:before {
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height: 8rem; }
+.circular-progress:after {
+    line-height: 14rem; }
+.cal1 {
+    transform: rotate(162deg);
+    background: linear-gradient(0deg, #6666ff 50%, rgba(102, 102, 255, 0.2) 50%); }
+.cal1:before,
+.cal1:after {
+    color: #6666ff; }
+.cal1:before {
+    content: "90%";
+    background: #393e46 content-box;
+    transform: rotate(-162deg);
+    text-transform: uppercase; }
+.cal1:after {
+    content: "Los críticos recomiendan";
+    background: linear-gradient(transparent 50%, #393e46 50%);
+    transform: scale(1.1) rotate(-162deg); }
+
+.cal2 {
+    transform: rotate(174deg);
+    background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, 0.2) 50%); }
+.cal2:before,
+.cal2:after {
+    color: orange; }
+.cal2:before {
+    content: "97%";
+    background: #393e46 content-box;
+    transform: rotate(-174deg);
+    text-transform: uppercase; }
+.cal2:after {
+    content: "Promedio de críticos";
+    background: linear-gradient(transparent 50%, #393e46 50%);
+    transform: scale(1.1) rotate(-174deg); }
+
+.cal3 {
+    transform: rotate(180deg);
+    background: linear-gradient(0deg, #1dd72a 50%, rgba(230, 0, 230, 0.2) 50%); }
+.cal3:before,
+.cal3:after {
+    color: #1DD72A; }
+.cal3:before {
+    content: "100%";
+    background: #393e46 content-box;
+    transform: rotate(-180deg);
+    text-transform: uppercase; }
+.cal3:after {
+    content: "Valoración de OpenCritic";
+    background: linear-gradient(transparent 50%, #393e46 50%);
+    transform: scale(1.1) rotate(-180deg); }
+
+/*TEXTOS*/
+@media (max-width: 1192px) {
+    #texto1{
+        font-size: large;
+    }
+}
+@media (max-width: 990px) {
+    #texto1{
+        font-size: medium;
+    }
+    .contenedor h1,h2,h3,h4,h6,p,i{
+        color: white;
+    }
+    .contenedor h4{
+        font-size: medium;
+    }
+    .contenedor h5{
+        font-size: small;
+    }
+    .contenedor h6{
+        font-size: x-small;
+    }
+}
+@media (max-width: 680px) {
+    #texto1{
+        font-size: medium;
+    }
+}
+/* FOOTER */
+#footer{
+    background-size: 20px 20px;
+    bottom: 0;
+    padding-top: 50px;
+}
+.contenidoF1 a{
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: large;
+}
+.contenidoF1 a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+}
+.contenidoF2 h3{
+    font-size: x-small;
+    color: #c6c6c6;
+}
+.contenidoF2 a{
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: xx-large;
+}
+#facebook:hover{
+    color: #0d6efd;
+}
+#instagram:hover{
+    color: deeppink;
+}
+@media (max-width: 407px) {
+    .contenidoF1{
+        text-align: center;
+    }
+    .contenidoF1 a{
+        font-size: small;
+    }
+}

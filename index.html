@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IngSof2</title>
+    <!--Aqui se mandan a llamar los documentos que utiliza el archivo html -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <!-- link para archivo css de bootstrap-->
+    <link rel="stylesheet" href="assets/css/estilos.css" type="text/css">
+    <!-- link para el archivo css personalizado -->
+    <script src="https://kit.fontawesome.com/bfc0c3697a.js" crossorigin="anonymous"></script>
+    <!--Link de para usar iconos -->
+
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark navFoot">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="navbar-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Tienda</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Biblioteca</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Juegos</a></li>
+                </ul>
+
+                <form class="form-inline navbar-nav ml-auto">
+                    <ul class="navbar-nav align-items-center" id="iconosNav">
+                        <li class="navbar-item"><a href="#"><i class="fas fa-user iconos pl-3 pr-3"></i></a></li>
+                        <li class="navbar-item"><a href="#"><i class="fas fa-download iconos pl-3 pr-3"></i></a></li>
+                    </ul>
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-light buscar" type="submit"><i class="fas fa-search buscar"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--CARROUSEL-->
+    <div class="container-fluid carouselC">
+        <div id="carouselExampleIndicators" class="carousel slide container-md" data-ride="carousel" >
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner p-2">
+                <div class="carousel-item active">
+                    <img src="assets/images/carrousel/ID1021915.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel/ID1021917.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel/ID1021918.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel/ID1021922.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel/ID1087560.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/carrousel/ID1087561.jpg" alt="" class="d-block w-100">
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENIDO-->
+    <div class="container p-4" id="parte1">
+        <div class="row justify-content-between align-items-center p-2">
+            <div class="col-md-5 contenedor blockquote p-2">
+                <h3 id="texto1">Crea una resistencia conforme luchas por recuperar del colapso a un Londres de un futuro cercano.</h3>
+            </div>
+            <div class="col-md-5 contenedor blockquote">
+                <img src="assets/images/logoJuego.png" class="w-75 mx-auto d-block" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center p-2">
+            <div class="col-md-7 contenedor p-1">
+                <h3>Características</h3>
+                <p>Crea una resistencia a partir de cualquier persona en el mundo conforme luchas por recuperar del colapso a un Londres de un futuro cercano. Bienvenido a la resistencia.
+                    Recluta y juega como cualquier persona de Londres. Cada persona que veas cuenta con su propia historia, personalidad y conjunto de habilidades.
+                    Hackea drones armados, despliega robots araña y acaba con los enemigos usando un manto de realidad aumentada.
+                </p>
+            </div>
+            <div class="col-md-4 blockquote p-2 text-center">
+                <h5 >Free to play</h5>
+                <button type="button" class="btn btn-warning" id="botonComprar">Comprar</button>
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center p-2">
+            <div class="col-md contenedor p-1 pb-3">
+                <h3>Calificaciones</h3>
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-3">
+                        <div class="circular-progress cal1">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="circular-progress cal2">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="circular-progress cal3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center p-2">
+            <div class="col-md contenedor contenedorRequistos p-1">
+                <h3>Especificaciones</h3>
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-3 p-4 text-left">
+                        <h4>MINIMAS</h4>
+                        <h5>Sistema operativo</h5>
+                        <h6>Windows 7 (SP1) De 64 Bits</h6>
+                        <h5>Procesador</h5>
+                        <h6>Intel Core i3-3225 o AMD Phenom II X6 1100T</h6>
+                        <h5>Memoria RAM</h5>
+                        <h6>4 GB</h6>
+                        <h5>GPU</h5>
+                        <h6>NVIDIA GTX 650 Ti o AMD HD 7850</h6>
+                        <h5>Espacio en disco</h5>
+                        <h6>40 GB</h6>
+                    </div>
+                    <div class="col-md-3 p-4 text-left">
+                        <h4>RECOMENDADAS</h4>
+                        <h5>Sistema operativo</h5>
+                        <h6>Windows 10 De 64 Bits</h6>
+                        <h5>Procesador</h5>
+                        <h6>Intel Core I7-7700K O Ryzen 5 1600</h6>
+                        <h5>Memoria RAM</h5>
+                        <h6>8 GB</h6>
+                        <h5>GPU</h5>
+                        <h6>GeForce GTX 1060 6 GB o Radeon RX 470</h6>
+                        <h5>Espacio en disco</h5>
+                        <h6>40 GB</h6>
+                    </div>
+                    <div class="col-md-3 p-4">
+                        <h4>PLATAFORMAS</h4>
+                        <div class="justify-content-center text-center" id="windows">
+                            <i class="fab fa-windows row pt-5"></i>
+                            <h6 class="pb-3">Windows</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div id="footer" class="p-1 container-fluid navFoot">
+        <div class="container w-10 pt-1">
+            <div class="row justify-content-md-center py-md-1">
+                <div class="row justify-content-md-center py-md-1">
+                    <div class="contenidoF1 col text-center font-weight-light">
+                        <a href="assets/EpicGames/politicas_de_privacidad.html" class="p-2">Politicas de privacidad</a>
+                        <a href="assets/EpicGames/terminos_y_servicios.html" class="p-2">Terminos y servicios</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center py-md-1">
+                <div class="contenidoF2 col text-center font-weight-light">
+                    <h3>Pagina Desarrollada por Alejandro Suarez Hernandez</h3>
+                    <h3>Todos los derechos reservados ©Alejandro Suarez 2020</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100048970758452">
+                        <i class="fab fa-facebook-square" id="facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mozart_is_my_bitch/">
+                        <i class="fab fa-instagram-square" id="instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Scripts que utiliza el archivo html -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+</body>
+</html>
